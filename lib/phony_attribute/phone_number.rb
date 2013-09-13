@@ -103,7 +103,7 @@ module PhonyAttribute
   def PhoneNumber(value)
     case value
     when PhoneNumber then value
-    when String then PhoneNumber.new(value)
+    when String then PhoneNumber.parse(value)
     else
       nil
     end
