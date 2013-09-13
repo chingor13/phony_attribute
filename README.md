@@ -1,4 +1,4 @@
-# PhonyAttribute
+# PhonyAttribute [![Build Status](https://travis-ci.org/chingor13/phony_attribute.png)](https://travis-ci.org/chingor13/phony_attribute)
 
 ActiveModel attribute serialization using [phony][phony]. Also wraps the [phony][phony] with a model.
 
