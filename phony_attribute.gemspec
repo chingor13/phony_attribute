@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/chingor13/phony_attribute"
   s.summary     = "ActiveModel field serializer for handling phone numbers via Phony gem"
   s.description = "ActiveModel field serializer for handling phone numbers via Phony gem"
+  s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
